@@ -2,6 +2,8 @@
 
 Visualization tool created with React for common array sorting algorithms.
 
+<img src="./images/project_capture.png" alt="project capture" />
+
 ## Currently Supported Algorithms
 
 * Bubble Sort
@@ -19,4 +21,6 @@ Visualization tool created with React for common array sorting algorithms.
 * Speed up or slow down the algorithm speed
 * Quickly update array length
 * Ability to reverse algorithm
+
+
 
