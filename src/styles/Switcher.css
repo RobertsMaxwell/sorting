@@ -1,0 +1,48 @@
+.switcher {
+    display: flex;
+    height: var(--switcher-height);
+    width: var(--switcher-width);
+    background-color: rgb(73, 73, 73);
+    padding: 4px;
+    border-radius: 20px;
+}
+
+.switcher:hover {
+    cursor: pointer;
+}
+
+.switcher .ball {
+    width: var(--switcher-height);
+    background-color: white;
+    border-radius: 100%;
+}
+
+.switcher .active {
+    animation-name: activate;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+.switcher .inactive {
+    animation-name: deactivate;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes activate {
+    from {
+        margin-left: 0;
+    }
+    to {
+        margin-left: calc(var(--switcher-width) - var(--switcher-height));
+    }
+}
+
+@keyframes deactivate {
+    from {
+        margin-left: calc(var(--switcher-width) - var(--switcher-height));
+    }
+    to {
+        margin-left: 0;
+    }
+}

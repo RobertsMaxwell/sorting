@@ -1,0 +1,9 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    font-size: min(18px, 3vw);
+    text-align: center;
+    letter-spacing: 2px;
+}
