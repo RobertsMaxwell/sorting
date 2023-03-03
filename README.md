@@ -2,7 +2,9 @@
 
 Visualization tool created with React for common array sorting algorithms.
 
-<img src="./images/project_capture.png" alt="project capture" />
+<p>
+    <img src="src/images/project_capture.png" height="400" />
+</p>
 
 ## Currently Supported Algorithms
 
@@ -21,6 +23,3 @@ Visualization tool created with React for common array sorting algorithms.
 * Speed up or slow down the algorithm speed
 * Quickly update array length
 * Ability to reverse algorithm
-
-
-
