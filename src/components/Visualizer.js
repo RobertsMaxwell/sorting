@@ -74,7 +74,7 @@ function Visualizer () {
                         <p>{size}</p>
                     </div>
                     <div className="direction_container">
-                        <p>Reverse</p>
+                        <p>{`Rewind: ${reverse ? "Active" : "Inactive"}`}</p>
                         <Switcher disabled={statePlaying} on={reverse} setter={setReverse}/>
                     </div>
                 </div>
